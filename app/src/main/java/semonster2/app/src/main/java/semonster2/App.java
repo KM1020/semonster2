@@ -5,12 +5,10 @@ package semonster2;
 
 public class App {
     public String getGreeting() {
-        return "こんにちはSEMonster";
+        return "Hello World!";
     }
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
-
-
     }
 }
