@@ -28,7 +28,3 @@ application {
     // Define the main class for the application.
     mainClass = 'semonster2.App'
 }
-
-tasks.withType(JavaCompile){
-    option.encoding = 'UTF-8'
-}
