@@ -5,7 +5,7 @@ package semonster2;
 
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+        return "こんにちはSEMonster";
     }
 
     public static void main(String[] args) {
