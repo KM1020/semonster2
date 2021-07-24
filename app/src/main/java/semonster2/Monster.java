@@ -7,12 +7,12 @@ public class Monster {
 
   Monster() {
     Random random = new Random();
-    this.name = this.summonMonster(random.nextInt(5));
-    this.rare = random.nextInt(5);
+    this.name = this.summonMonster(random.nextInt(6));
+    this.rare = random.nextInt(6);
   }
 
   String summonMonster(int mnumber) {
-    String monsters[] = { "スライム", "サハギン", "ドラゴン", "デュラハン", "シーサーペント" };
+    String monsters[] = { "スライム", "サハギン", "ドラゴン", "デュラハン", "シーサーペント","モトコ" };
     return monsters[mnumber];
   }
 
